@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Rank Greeting</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Self CSS-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-dark">
+    <div class="container bg-secondary text-light">
+        <header>
+            <h1 class="text-center">What Rank Are You?</h1>
+        </header>
+        <main class="p-1">
+            <!-- Ranks -->
+            <input type="radio" name="rankRadio" id="rankPrivate" value="Private">
+            <label for="rankRadio">Private</label><br>
+            <input type="radio" name="rankRadio" id="rankSergeant" value="Sergeant">
+            <label for="rankRadio">Sergeant</label><br>
+            <input type="radio" name="rankRadio" id="rankCaptain" value="Captain">
+            <label for="rankRadio">Captain</label><br>
+            <input type="radio" name="rankRadio" id="rankGeneral" value="General">
+            <label for="rankRadio">General</label><br>
+
+            <!-- Names -->
+            <label for="firstName">Enter your First Name: </label>
+            <input type="text" name="firstName" id="firstName"><br>
+
+            <label for="lastName">Enter your Last Name: </label>
+            <input type="text" name="lastName" id="lastName"><br><br>
+
+            <!-- Submit -->
+            <button type="submit" id="submitButton" class="btn btn-primary mb-3">Submit</button>
+
+            <p id="outputParagraph">Hello, <span id="outputRank"></span> <span id="outputName"></span></p>
+
+        </main>
+
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS, then Self JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
